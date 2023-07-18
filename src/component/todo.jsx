@@ -55,7 +55,7 @@ const Todo = () => {
             <div className='flex items-center'>
               <input
                 className='flex-1 border border-zinc-600 py-2 px-4 rounded overflow-hidden'
-                type='text'
+                type='text' 
                 placeholder='✍️ Add Item'
                 value={inputData}
                 onChange={(e) => setInputData(e.target.value)}
